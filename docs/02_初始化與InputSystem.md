@@ -41,3 +41,7 @@ uGUI 的 EventSystem 使用 InputSystemUIInputModule，移除舊 StandaloneInput
 - https://github.com/Unity-Technologies/InputSystem/blob/develop/Packages/com.unity.inputsystem/Documentation~/Installation.md
 
 查閱時優先用本專案實際安裝版號的文件；develop 與 latest 可能超前本專案。
+
+## 預設場景搬移
+
+取得 Release 附件並合併後，等待編譯完成，執行 `Tools → DCD → 初始化專案場景`。保留 SampleScene 名稱；檢查 Build Profiles 與 .meta。詳見 [場景初始化](10_場景初始化.md)。
