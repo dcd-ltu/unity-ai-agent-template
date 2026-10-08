@@ -1,0 +1,13 @@
+* text=auto
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+
+# AR / Vuforia 本機套件使用 Git LFS
+*.tgz filter=lfs diff=lfs merge=lfs -text

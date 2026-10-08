@@ -1,0 +1,40 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.booproj
+*.suo
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+
+# 個人 AI 與本機設定（共用規則仍須提交）
+CLAUDE.local.md
+.claude/settings.local.json
+.codex/auth.json
+.codex/config.toml
+.kiro/settings/mcp.json
+# IDE 產生的設定
+.vscode/
+# Unity / IDE 產生的檔案與當機紀錄
+*.opendb
+*.VC.db
+*.mdb
+sysinfo.txt
+**/crash_report*
